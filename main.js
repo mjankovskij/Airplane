@@ -50,4 +50,4 @@ function checkLife() {
         }
     }
 }
-// setInterval(checkLife, 100);
+setInterval(checkLife, 100);
