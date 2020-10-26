@@ -50,3 +50,9 @@ body * {
     background: rgb(87, 86, 86);
     text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+    .gameBox {
+        width: 100%;
+    }
+}

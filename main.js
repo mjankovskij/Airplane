@@ -1,6 +1,10 @@
 $('.airplane').draggable({
     axis: 'x',
-    containment: "parent"
+    containment: "parent",
+    move(event) {
+        console.log(event.pageX,
+            event.pageY)
+    }
 });
 
 speed = 2; // bigger is lower
@@ -46,4 +50,4 @@ function checkLife() {
         }
     }
 }
-setInterval(checkLife, 100);
+// setInterval(checkLife, 100);
