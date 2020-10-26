@@ -15,7 +15,7 @@ body * {
     right: 0;
     bottom: 0;
     margin: auto;
-    background: grey;
+    background: #5f5e5e;
     width: 40%;
     height: 100vh;
     padding: 5px;
@@ -51,6 +51,54 @@ body * {
     text-align: center;
 }
 
+.levelUp {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 20%;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    background: rgb(3, 73, 3);
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+.gameOver {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 20%;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    background: rgb(73, 3, 9);
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+span {
+    background: transparent;
+}
+
+.level {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    line-height: 20px;
+    background: rgb(87, 86, 86);
+    text-align: center;
+}
+
 @media only screen and (max-width: 900px) {
     .gameBox {
         width: 90%;
@@ -59,7 +107,7 @@ body * {
 
 @media only screen and (max-width: 700px) {
     .gameBox {
-        width: 100%;
+        width: 97%;
     }
     .airplane {
         bottom: 25px;
