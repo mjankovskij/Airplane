@@ -1,4 +1,8 @@
 out/frames/
 out/voice_raw.mp3
 out/voice.vtt
+out/motion_*.jpg
+out/preview_*.jpg
+out/kf_*.jpg
+out/base_hires.jpg
 __pycache__/
